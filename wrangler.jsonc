@@ -7,6 +7,6 @@
   "d1_databases": [{
     "binding": "DB",
     "database_name": "cheshop_db",
-    "database_id": "REPLACE_AFTER_D1_CREATE"
+    "database_id": "bc3c5d23-0f9b-405f-8224-a3fd5f543279"
   }]
 }
