@@ -13,3 +13,7 @@
 .rank-1,.rank-2,.rank-3,.rank-4,.rank-5{background:#4b00a5;color:#fff}
 .image-sale{top:0;left:auto;right:0;border-radius:0 0 0 8px}
 .detail>a{display:inline-block;margin-bottom:12px;padding:10px 14px;border:1px solid #d9c8f0;border-radius:6px;background:#fff;color:#4b00a5;text-decoration:none;font-weight:600}
+.back-button{display:inline-block;margin-bottom:12px;background:#fff;color:#4b00a5;border:1px solid #d9c8f0}
+.price del{margin-right:5px;color:#999;font-size:.7em;font-weight:400}.discount-rate{margin-right:5px;color:#e53935;font-size:.7em;font-weight:700}.price strong{color:#4b00a5;font:inherit}
+.nav{position:relative;isolation:isolate}.nav::before{content:"";position:absolute;z-index:-1;left:var(--hover-left,0px);top:50%;width:var(--hover-width,0px);height:44px;border-radius:24px;background:#f4f0fb;opacity:var(--hover-opacity,0);transform:translateY(-50%);transition:left .24s ease,width .24s ease,opacity .18s ease;pointer-events:none}.nav>a,.nav>button{position:relative;z-index:1;padding:10px 16px}.nav a[href="#cart"]{background:transparent}
+#toss-methods,#toss-agreement{margin:20px 0;max-width:600px}#pay-btn{width:100%;max-width:600px}
