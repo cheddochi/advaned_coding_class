@@ -6,3 +6,4 @@
 .pic{position:relative}.rank{position:absolute;top:10px;right:10px;z-index:1;padding:6px 8px;border-radius:6px;font:700 12px inherit}.rank-1{background:#f4f0fb;color:#111}.rank-2{background:#d9c8f0;color:#111}.rank-3{background:#ffb800;color:#111}.rank-4{background:#d9c8f0;color:#111}.rank-5{background:#f4f0fb;color:#111}
 .admin-product{display:grid;gap:10px;border-top:1px solid #ddd;padding:18px 0;max-width:620px}.admin-product input,.admin-product select{padding:10px;border:1px solid #ddd;background:#f4f4f7;font:400 14px inherit}.admin-product .button{justify-self:start}
 .sale-price del{font-size:13px;color:#666}.sale-label{display:inline-block;margin-right:8px;padding:4px 7px;border-radius:6px;background:#f4f0fb;color:#111;font-size:11px;font-weight:700}
+.image-sale{position:absolute;top:10px;right:10px;z-index:2;margin:0;background:#fff6e3;color:#111}
