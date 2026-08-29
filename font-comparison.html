@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>폰트 조합 비교</title>
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=IBM+Plex+Sans+KR:wght@400;600;700&family=Noto+Sans+KR:wght@400;600;700&family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { background:#f4f0fb; color:#111; }
+    body { margin:0; padding:32px; background:#f4f0fb; font-family:Arial,sans-serif; }
+    main { max-width:1100px; margin:auto; display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    article { min-height:260px; padding:24px; background:#fff6e3; border:8px solid #111; border-radius:24px; }
+    .meta { color:#4b00a5; font:600 14px Arial,sans-serif; }
+    h2 { margin:18px 0 14px; color:#4b00a5; font:600 34px/1.18 'Noto Serif KR',serif; }
+    p { font-size:17px; line-height:1.6; }
+    .price { color:#4b00a5; font-size:24px; font-weight:700; }
+    .note { color:#ed4b86; font-size:13px; font-weight:600; }
+    .sans { font-family:'Noto Sans KR',sans-serif; }
+    .plex { font-family:'IBM Plex Sans KR',sans-serif; }
+    .gowun { font-family:'Gowun Dodum',sans-serif; }
+  </style>
+</head>
+<body><main>
+  <article><div class="meta">01 · 가장 추천</div><h2>오늘의 발견<br><i>Pure Selection</i></h2><p class="sans">정돈된 한글과 영어가 자연스럽게 이어지는 상품 안내입니다.</p><div class="price sans">89,000원</div><div class="note">Noto Sans KR + Noto Serif KR</div></article>
+  <article><div class="meta">02 · 현대적</div><h2>오늘의 발견<br><i>Pure Selection</i></h2><p class="plex">정돈된 한글과 영어가 자연스럽게 이어지는 상품 안내입니다.</p><div class="price plex">89,000원</div><div class="note">IBM Plex Sans KR + Noto Serif KR</div></article>
+  <article><div class="meta">03 · 부드러운 인상</div><h2>오늘의 발견<br><i>Pure Selection</i></h2><p class="gowun">정돈된 한글과 영어가 자연스럽게 이어지는 상품 안내입니다.</p><div class="price gowun">89,000원</div><div class="note">Gowun Dodum + Noto Serif KR</div></article>
+  <article><div class="meta">04 · 단일 폰트</div><h2 class="sans">오늘의 발견<br><i>Pure Selection</i></h2><p class="sans">정돈된 한글과 영어가 자연스럽게 이어지는 상품 안내입니다.</p><div class="price sans">89,000원</div><div class="note">Noto Sans KR 단일</div></article>
+</main></body></html>
