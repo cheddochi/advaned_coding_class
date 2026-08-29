@@ -9,3 +9,7 @@
 .image-sale{position:absolute;top:32px;left:0;right:auto;z-index:2;margin:0;border-radius:0 0 8px 0;background:#fff6e3;color:#111}
 .rank-1,.rank-2,.rank-3,.rank-4,.rank-5{background:#4b00a5;color:#fff}
 .image-sale{background:#4b00a5;color:#fff}
+.rank{top:0;left:0;padding:7px 12px 8px;border-radius:0 0 8px 0;background:#4b00a5;color:#fff;font-size:15px;font-weight:700;line-height:1.1}
+.rank-1,.rank-2,.rank-3,.rank-4,.rank-5{background:#4b00a5;color:#fff}
+.image-sale{top:0;left:auto;right:0;border-radius:0 0 0 8px}
+.detail>a{display:inline-block;margin-bottom:12px;padding:10px 14px;border:1px solid #d9c8f0;border-radius:6px;background:#fff;color:#4b00a5;text-decoration:none;font-weight:600}
