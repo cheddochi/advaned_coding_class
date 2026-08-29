@@ -1,0 +1,1 @@
+.cartrow .pic{width:100px;height:100px;min-height:0;aspect-ratio:auto}.cartrow{min-height:136px}.summary{min-width:280px}button{cursor:pointer}button:disabled{cursor:not-allowed}@media(max-width:760px){.cartrow .pic{width:72px;height:72px}.summary{min-width:0}}

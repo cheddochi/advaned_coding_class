@@ -1,4 +1,4 @@
-const page='<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>상품</title><link rel="stylesheet" href="/styles.css"></head><body><div id="app"></div><script src="/app.js"></script></body></html>';
+const page='<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>상품</title><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/fix.css"></head><body><div id="app"></div><script src="/app.js"></script></body></html>';
 const sid=r=>r.headers.get('Cookie')?.match(/sid=([^;]+)/)?.[1]||crypto.randomUUID();
 const json=(v,s=200,id=crypto.randomUUID())=>new Response(JSON.stringify(v),{status:s,headers:{'content-type':'application/json','set-cookie':`sid=${id}; Path=/; SameSite=Lax`}});
 async function getCart(env,id){const r=await env.DB.prepare('SELECT c.product_id,c.qty,p.name,p.price,p.image_url FROM cart_items c JOIN products p ON p.id=c.product_id WHERE c.session_id=? ORDER BY c.id').bind(id).all();return{items:r.results,total:r.results.reduce((a,x)=>a+x.price*x.qty,0)}}
